@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text Highlighter",
+  "description": "This extension is designed to better highlight keywords on a page.",
+  "version": "1.0",
+  "background": {
+   "scripts": ["popup.js"]
+  },
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
